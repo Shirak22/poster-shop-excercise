@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #eee;
+    font-family: roboto;
+}
+
+h1,figure{
+    margin: 0;
+}
+
+h1{
+    font-size:6rem ;
+    font-weight: 700;
+}
+
+
+
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #000;
+}
+
+header {
+    display: flex;
+    background:#3DE07E;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/Ninja.svg');
+    background-repeat: no-repeat ;
+    background-size: 202px;
+    background-position:center 110%;
+
+}
+
+.header__title{
+    margin:15rem 0; 
+}
+
+.header__menu{
+    margin: 0;
+    padding: 0;
+}
+.header__menu-list{
+    list-style: none;
+    display: none;
+    margin: 0;
+}
+
