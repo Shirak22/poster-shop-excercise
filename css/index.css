@@ -142,3 +142,47 @@ footer {
     margin: 0;
 }
 
+
+.footer__navigation {
+    text-align: center;
+}
+.footer__navigation-list{
+    list-style: none;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.footer__navigation-list a {
+    color: #eee;
+    text-decoration: none;
+}
+.footer__description{
+    line-height: 1.5rem;
+
+}
+
+.footer__social_media{
+    text-align: center;
+}
+.footer__social_media-list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footer__social_media-list a {
+    color: #eee;
+    text-decoration: none;
+
+}
+.footer__social_media-list img {
+    width: 50px;
+    margin: 0;
+
+}
